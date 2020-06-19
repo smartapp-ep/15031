@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0050)http://www.youb3.top/3/check.html?VVG4SNDB3RGIHI7R -->
+<html lang="en"><!-- Mirrored from pay.epgaclub.com/apiTvShow/cpay/gateway/wxScan?out_trade_no=SMH042_15040970873234&total_fee=6800&body=QQ45458932&attach=c38a89f7d50c7d027d84d65a9424deba-null-2&callback_url=http://www.ifenghai.com/index.html&uptype=1&ip=122.226.166.69&sign=d1a1c8aeb96140970fcec540e73709a0 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Aug 2017 11:43:18 GMT --><!-- Added by HTTrack --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- /Added by HTTrack -->
+
+
+
+<title>支付订单 -soku.cc 搜库资源网</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<script src="./zhifu/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./zhifu/jweixin-1.0.0.js" type="text/javascript" charset="utf-8"></script>
+<script src="./zhifu/layer.js" type="text/javascript" charset="utf-8"></script>
+<link href="./zhifu/layer.css" type="text/css" rel="styleSheet" id="layermcss">
+<script src="./zhifu/clipboard.min.js"></script>
+<script src="./zhifu/qrcanvas.js"></script>
+<style>
+html,body {
+	background: #f8f8f8;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "Microsoft YaHei";
+}
+
+.head {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	background-color: #fff;
+	box-shadow: 0px 0px 3px #eee;
+}
+
+.left {
+	float: left;
+	padding-left: 10px;
+}
+
+.right {
+	float: right;
+	padding-right: 10px;
+}
+
+.conetnt {
+	margin-top: 20px;
+}
+
+.conetnt li {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+.m {
+	color: red;
+}
+
+.button_bar {
+	padding: 0px 20px;
+}
+
+.button {
+	height: 40px;
+	width: 100%;
+	background-color: #7a14f5;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button-green {
+	background: #2acb54;
+}
+
+.foot {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.ok_img {
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 10px;
+	display: none;
+}
+
+.ok_img img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+
+.ok_img h3 {
+	font-size: 14px;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+.button_bar p {
+	line-height: 2.0rem;
+	font-size: 0.7rem;
+	color: green;
+}
+
+.titlebar {
+	width: 100%;
+	padding-top: 6px;
+	background: #4c2ded url(../../../../zhifu/titlebar_bg.jpg)
+		right center no-repeat;
+	background-size: auto 100%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.picbox img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.button_bar h4 {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+.button_bar h4 span {
+	display: inline-block;
+	background: #fffd00;
+	color: #ec1313;
+}
+
+.button_bar .tip {
+	color: #ec1313;
+	font-size: 12px;
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.topbar {
+	height: 40px;
+	line-height: 40px;
+	background: #141414;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+.topbar img {
+	position: absolute;
+	left: 4px;
+	top: -3px;
+}
+
+.amount {
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+
+.operation {
+	overflow: hidden;
+}
+
+.operation .title {
+	width: 55%;
+	margin: 30px auto;
+}
+
+.operation img {
+	width: 100%;
+	height: auto;
+}
+</style>
+<script type="text/javascript" src="./zhifu/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./zhifu/html2canvas.js"></script>
+
+
+</head>
+<body>
+<div class="topbar">
+		<a href="/" onClick="javascript :history.back(-1);"><img src="./zhifu/return.png" alt="" width="33" height="40"></a>私播充值	</div>
+	<div class="titlebar">
+		<div id="qr" style="display: inline-block;margin: 8px;padding: 8px;background: #fff;"><img src="./zhifu/wx3.jpg" width="200" height="200"></div>
+		<div class="amount">1V1私播：45 元</div>
+	</div>
+<div class="button_bar">
+		<h4>
+			步骤1：<span>截图</span>二维码保存到手机相册
+		</h4>
+		<h4>
+			步骤2：点击<span>前往微信扫一扫</span>选择我的相册（右上角）进行扫描（注：如页面不能调用微信，请自行打开）
+		</h4>
+		<h4>
+			步骤3：<span>点支付完成后</span>返回首页自动<span></span>开通会员
+		</h4>
+		<div class="tip">
+		  <p>充值成为会员将有机会获得50元话费赠送</p>
+		  <p><a class="button submit button-green" id="anshowwx" href="weixin://">前往微信扫一扫</a>
+	        <!--  <button class="button submit button-green" id="saveImageBtn">保存图片</button>-->
+	        <a class="button submit" id="submit" href="over.php">支付完成</a>	</p>
+		</div>
+	<div class="operation">
+		<div class="title">
+			<img src="./zhifu/operation_pic.jpg" width="750" height="1788">		</div>
+		<div class="con"></div>
+	</div>
+	<div class="foot"></div>
+	<input type="hidden" name="submit_check" value="1">
+
+
+	<script>
+		var qrUrl = "http://pay.epgaclub.com/apiTvShow/wxpub/go?o=SMH042_15040970873234&amp;b=QQ45458932&amp;a=c38a89f7d50c7d027d84d65a9424deba-null-2&amp;t=6800&amp;c=http%3A%2F%2Fwww.ifenghai.com%2Findex.html";
+		//alert(qrUrl);
+		var canvas = qrcanvas({
+			data : qrUrl,
+			cellSize : 3
+		});
+
+		document.getElementById('qr').appendChild(canvas);
+		/*
+		 window.onload = function() {
+		 draw();
+		 var saveButton = document.getElementById("saveImageBtn");
+		 bindButtonEvent(saveButton, "click", saveImageInfo);
+		 var dlButton = document.getElementById("downloadImageBtn");
+		 bindButtonEvent(dlButton, "click", saveAsLocalImage);
+		 };
+		 function draw() {
+		 var canvas = document.getElementById("thecanvas");
+		 var ctx = canvas.getContext("2d");
+		 ctx.fillStyle = "rgba(125, 46, 138, 0.5)";
+		 ctx.fillRect(25, 25, 100, 100);
+		 ctx.fillStyle = "rgba( 0, 146, 38, 0.5)";
+		 ctx.fillRect(58, 74, 125, 100);
+		 ctx.fillStyle = "rgba( 0, 0, 0, 1)"; // black color  
+		 ctx.fillText("Gloomyfish - Demo", 50, 50);
+		 }
+
+		 function bindButtonEvent(element, type, handler) {
+		 if (element.addEventListener) {
+		 element.addEventListener(type, handler, false);
+		 } else {
+		 element.attachEvent('on' + type, handler);
+		 }
+		 }
+
+		 function saveImageInfo() {
+		 var mycanvas = document.getElementById("thecanvas");
+		 var image = mycanvas.toDataURL("image/png");
+		 var w = window.open('about:blank', 'image from canvas');
+		 w.document.write("<img src='"+image+"' alt='from canvas'/>");
+		 }
+
+		 function saveAsLocalImage() {
+		 var myCanvas = document.getElementById("thecanvas");
+		 // here is the most important part because if you dont replace you will get a DOM 18 exception.  
+		 // var image = myCanvas.toDataURL("image/png").replace("image/png", "image/octet-stream;Content-Disposition: attachment;filename=foobar.png");  
+		 var image = myCanvas.toDataURL("image/png").replace("image/png",
+		 "image/octet-stream");
+		 window.location.href = image; // it will save locally  
+		 }
+		 */
+
+		$('#submit').click(function() {
+			if ($('input[name=submit_check]').val() == 0)
+				return false;
+			$('input[name=submit_check]').val(0);
+			var loding = layer.open({
+				type : 2
+			});
+			$.ajax({
+				type : "get",
+				data : "out_trade_no=SMH042_15040970873234",
+				url : "http://pay.epgaclub.com/apiTvShow/content/commjsquery",//方法所在页面和方法名
+				dataType : "jsonp",
+				jsonp : "callback",
+				success : function(data) {
+					if (data.message == "success") {
+						layer.open({
+							content : '恭喜您，充值成功!',
+							btn : '好的!',
+							yes : function() {
+								window.location.href = "http://www.ifenghai.com/index.html";
+							}
+						});
+					} else {
+						layer.open({
+							content : '您还没有支付完成哦!',
+							btn : '好的，马上支付!'
+						});
+						$('input[name=submit_check]').val(1);
+						layer.close(loding);
+					}
+
+				}
+			});
+		});
+		$(function() {
+			$(".btn-blue").click(function() {
+				var Url = $(this).attr('data-clipboard-text');
+				console.log(Url);
+				//copyToClipboard(Url);
+				//$(".alertMassage").css({display:"block"});
+			});
+
+			$(".copy-text").on("click", function() {
+				$(this).select();
+			});
+			$(".copy-text").on("focus", function() {
+				$(this).select();
+			});
+
+			var clipboard = new Clipboard('.J-copy-tbn');
+			clipboard.on('success', function(e) {
+				alert('复制成功');
+
+				e.clearSelection();
+			});
+
+			clipboard.on('error', function(e) {
+				alert('复制失败,请收工选择复制');
+			});
+
+			var u = navigator.userAgent;
+			var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+			var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+			var isMs = u.toLowerCase().indexOf('micromessenger') != -1;
+			if (isAndroid) {
+				$("#anshowwx").show();
+				$("#showwx").hide();
+			}
+			if (isMs) {
+				$("#anshowwx").hide();
+				$("#showwx").hide();
+			}
+			if (isiOS && !isMs) {
+				$("#showwx").show();
+				$("#anshowwx").hide();
+			}
+		})
+	</script>
+
+
+
+
+<!-- Mirrored from pay.epgaclub.com/apiTvShow/cpay/gateway/wxScan?out_trade_no=SMH042_15040970873234&total_fee=6800&body=QQ45458932&attach=c38a89f7d50c7d027d84d65a9424deba-null-2&callback_url=http://www.ifenghai.com/index.html&uptype=1&ip=122.226.166.69&sign=d1a1c8aeb96140970fcec540e73709a0 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Aug 2017 11:43:28 GMT -->
+</div></body></html>
